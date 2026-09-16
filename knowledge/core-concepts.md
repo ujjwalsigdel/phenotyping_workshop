@@ -65,8 +65,27 @@ robots/rovers, UAV (drone) platforms, fixed-sensor field stations.
 
 ## Verified additions
 
-*(Empty — this section fills in over time as claims get verified with a
-real Tier-1 citation during actual use. Format:)*
+### PlantCV & PlantCV-Geospatial — verified 2026-09-16
+PlantCV is an open-source Python image-analysis package for plant
+phenotyping, developed at the Donald Danforth Plant Science Center. It
+provides modular functions for image preprocessing, segmentation, and trait
+extraction across imaging modalities. PlantCV-Geospatial is a separate
+add-on package (requires PlantCV v5) that extends this to geospatial/aerial
+imaging data (e.g. GeoTIFF inputs, per-plot workflows across different plot
+designs and imaging systems) — it does not ship as part of core PlantCV.
+Install: PlantCV has an official conda-forge package
+(`conda create -n plantcv -c conda-forge plantcv`); PlantCV-Geospatial does
+not currently have one and is installed via pip into that same environment
+(`pip install plantcv-geospatial`).
+Source: Danforth Plant Science Center — official docs at
+docs.plantcv.org/en/latest/installation/ and
+docs.plantcv.org/projects/geospatial/en/latest/. Confidence: well-established
+for what these tools are/how to install; the specific geospatial function
+catalog (plot-extraction workflows, etc.) wasn't fully covered by the docs
+homepage and would need the function-reference pages to cite in detail.
+
+*(Fills in further over time as more claims get verified with a real Tier-1
+citation during actual use. Format:)*
 
 ```
 ### <topic> — verified YYYY-MM-DD
